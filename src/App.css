@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Dancing+Script:wght@500&family=Syne:wght@400;700&display=swap');
+
+/* Navbar Start */
+.navbar
+{
+  position: absolute;
+  z-index: 100;
+  width: 88%;
+  padding: 1rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.nav-elements { 
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-caption
+{
+  text-align: start;
+ 
 }
 
-.App-header {
-  background-color: #000000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.carousel-indicators
+{
+ justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+  --bs-navbar-color: rgb(255 255 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Navbar End */
+
+/* Hero Start */
+/* Hero End */
